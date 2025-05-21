@@ -1,6 +1,6 @@
 # .NET Environment setup in OpenAI Codex
 
-As of May 20, 2025, .NET is not available in the OpenAI Codex preinstalled package list.  This script installs the .NET SDK (version 9.0) for use in an OpenAI Codex environment.
+May 20, 2025 - .NET is not available in the OpenAI Codex preinstalled package list.  This script installs the .NET SDK (version 9.0) for use in an OpenAI Codex environment.
 
 ## Usage
 
