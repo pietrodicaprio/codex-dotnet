@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-# Define the version of .NET you want to install
-DOTNET_VERSION="9.0"
+# Define the version of .NET you want to install (fallback to 9.0 if not set)
+DOTNET_VERSION="${DOTNET_VERSION:-9.0}"
 
 echo "🚧 Installing .NET SDK $DOTNET_VERSION to /root/.dotnet"
 
