@@ -32,4 +32,7 @@ echo 'export PATH=/root/.dotnet:$PATH' >> ~/.bashrc
 echo "✅ Installed .NET version:"
 dotnet --version
 
+echo "🚧 Installing Entity Framework as global tool"
+dotnet tool install -g dotnet-ef  
+
 echo "✅ .NET SDK $DOTNET_VERSION setup complete"
